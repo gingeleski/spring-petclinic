@@ -15,5 +15,4 @@ target/*
 !.vscode/extensions.json
 _site/
 .gradle/
-gradle/
 build/
