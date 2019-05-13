@@ -6,15 +6,13 @@
 
 ## Running petclinic locally
 
-**Note this README part needs to be updated because I ported building to Gradle.**
-
-Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line:
+Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using Gradle. You can build a jar file and run it from the command line:
 
 
 ```
 git clone https://github.com/spring-projects/spring-petclinic.git
 cd spring-petclinic
-./mvnw bootJar
+./gradlew bootJar
 java -jar build/libs/*.jar
 ```
 
